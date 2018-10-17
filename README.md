@@ -14,10 +14,9 @@ pom.xml要配置
             <artifactId>jsch</artifactId>
             <version>0.1.54</version>
         </dependency>
-        
-       文件loginServer主要类中有个getProperties这个方法是配置服务器的地址信息的，需要先配置地址信息然后调用login去做登录的操作
-       LoginServer.login(LoginServer.getProperties(Config.Alertkey1 + ".json"), false);
        
-       如果这个单独的看不懂你可以看看我在项目中是怎么使用的项目中的服务器是内网服务器需要配置成你自己的服务器
+文件loginServer主要类中有个getProperties这个方法是配置服务器的地址信息的，需要先配置地址信息然后调用login去做登录的操作
+LoginServer.login(LoginServer.getProperties(Config.Alertkey1 + ".json"), false);
        
-       
+如果这个单独的看不懂你可以看看我在项目中是怎么使用的项目中的服务器是内网服务器需要配置成你自己的服务器       
+https://github.com/MAXIAODONGS/Configure
